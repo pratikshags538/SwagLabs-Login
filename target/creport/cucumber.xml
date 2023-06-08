@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="73.422" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="LoginPage" name="Navigation" time="6.755">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+Then It navigates on to login page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage" name="UI" time="4.109">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+Then It shows elements on login page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage" name="Field Validation (Username and Password fields are enabled)" time="12.484">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User clicks on Username and Password...................................passed
+Then Username and Password fields are enabled on login page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage" name="Main functionality" time="4.312">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "standard_user" and "secret_sauce".........................passed
+And User clicks on login button.............................................passed
+Then It shows home page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage DataDriven" name="Verify Login with Valid data - Example #1.1" time="4.735">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "standard_user" and "secret_sauce".........................passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage DataDriven" name="Verify Login with Valid data - Example #1.2" time="4.031">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "problem_user" and "secret_sauce"..........................passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage DataDriven" name="Verify Login with Valid data - Example #1.3" time="9.882">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "performance_glitch_user" and "secret_sauce"...............passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage DataDriven" name="Verify Login with Invalid data - Example #1.1" time="3.934">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "Alex Jobs" and "demo".....................................passed
+And User clicks on Login button.............................................passed
+Then It shows Login Page....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LoginPage DataDriven" name="Verify Login with Invalid data - Example #1.2" time="3.48">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters "locked_out_user" and "secret_sauce".......................passed
+And User clicks on Login button.............................................passed
+Then It shows Login Page....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login using Excel data" name="Verify Login with valid data - Example #1.1" time="5.131">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters username and password from sheetname "Sheet1" and rownumber 0.passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login using Excel data" name="Verify Login with valid data - Example #1.2" time="4.27">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters username and password from sheetname "Sheet1" and rownumber 1.passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login using Excel data" name="Verify Login with valid data - Example #1.3" time="9.827">
+<system-out><![CDATA[
+Given Chrome is opened and Swaglabs is opened...............................passed
+When User enters username and password from sheetname "Sheet1" and rownumber 2.passed
+And User clicks on Login button.............................................passed
+Then It shows Home Page.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
